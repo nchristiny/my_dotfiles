@@ -84,7 +84,6 @@ alias railsgitheroku="rails new . --git --database=postgresql"
 alias imageoptim="imageoptim -j -a -q -d"
 
 # Personal
-alias jv="cd Dropbox/jv_apprentice"
 alias blog="cd Dropbox/projects/nchristiny.github.io/"
 alias serveblog="jekyll serve --config _config.yml,_config_dev.yml"
 alias weather="curl -4 http://wttr.in/Chicago"
