@@ -1,22 +1,9 @@
-# echo is like puts for bash (bash is the program running in your terminal)
-# $VARIABLE will render before the rest of the command is executed
 echo "Logged in as $USER at $(hostname)"
-
-# Load RVM into a shell session *as a function*
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-# Path for RVM
-# test -d "$HOME/.rvm/bin" && PATH="$PATH:$HOME/.rvm/bin"
 
 # Rbenv autocomplete and shims
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # Path for RBENV
 test -d "$HOME/.rbenv/" && PATH="$HOME/.rbenv/bin:$PATH"
-
-# Path changes are made non-destructive with PATH=new_path;$PATH   This is like A=A+B so we preserve the old path
-
-# Path order matters, putting /usr/local/bin: before $PATH
-# ensures brew programs will be seen and used before another program
-# of the same name is called
 
 # Path for brew
 test -d /usr/local/bin && export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
@@ -62,8 +49,6 @@ git_prompt ()
 # Colors ls should use for folders, files, symlinks etc, see `man ls` and
 # search for LSCOLORS
 export LSCOLORS=ExGxFxdxCxDxDxaccxaeex
-# Force ls to use colors (G) and use humanized file sizes (h)
-alias ls='ls -Gh'
 
 # Force grep to always use the color option and show line numbers
 export GREP_OPTIONS='--color=always'

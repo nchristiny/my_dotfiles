@@ -1,0 +1,17 @@
+{
+    "draw_centered": true, // Centers the column in the window
+    "draw_indent_guides": false,
+    "extensions":
+    [
+        "markdown",
+        "md",
+        "mdown",
+        "mdwn",
+        "mmd",
+        "txt"
+    ],
+    "font_size": 14,
+    "trim_trailing_white_space_on_save": false,
+    "word_wrap": true,
+    "wrap_width": 80  // Sets the # of characters per line
+}
