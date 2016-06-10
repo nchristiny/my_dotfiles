@@ -1,12 +1,31 @@
-echo "I'm completely operational, and all my circuits are functioning perfectly."
-# (fortune -s computers | cowsay -f tux) | lolcat
+# Set config variables first
+GIT_PROMPT_ONLY_IN_REPO=1
+
+# GIT_PROMPT_FETCH_REMOTE_STATUS=0   # uncomment to avoid fetching remote status
+
+# GIT_PROMPT_SHOW_UPSTREAM=1 # uncomment to show upstream tracking branch
+# GIT_PROMPT_SHOW_UNTRACKED_FILES=all # can be no, normal or all; determines counting of untracked files
+
+# GIT_PROMPT_STATUS_COMMAND=gitstatus_pre-1.7.10.sh # uncomment to support Git older than 1.7.10
+
+# GIT_PROMPT_START=...    # uncomment for custom prompt start sequence
+# GIT_PROMPT_END=...      # uncomment for custom prompt end sequence
+
+# as last entry source the gitprompt script
+# GIT_PROMPT_THEME=Custom # use custom .git-prompt-colors.sh
+# GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
+# source ~/.bash-git-prompt/gitprompt.sh
+source /usr/local/etc/bash_completion.d/git-prompt.sh
+
 # random Zen of Python quote
 # https://gist.github.com/AgustinLado/4fd1355bf5b8edae2261
 # python -c "import sys, random; stdout = sys.stdout; sys.stdout = type('BlackHole', (), {'write': (lambda self, string: '')})(); import this; sys.stdout = stdout; print random.choice(''.join([this.d.get(i, i) for i in this.s]).splitlines()[2:]);" | cowsay -f tux | lolcat
 
+echo "I'm completely operational, and all of my circuits are functioning perfectly."
+
 # Aliases
 # System
-alias ls="ls -lAhGotr"
+alias ls="ls -FArthoG"
 alias rm="trash -v"
 alias cd..="cd .."
 alias ..='cd ..'
@@ -20,16 +39,19 @@ alias subl="subl -n"
 alias psmem="ps aux | sort -nr -k 4 | head -10"
 alias pscpu10="ps aux | sort -nr -k 3 | head -10"
 alias bashrc="subl ~/.bashrc && source ~/.bashrc"
-alias zzz="pmset sleepnow"
 alias reload="source ~/.bash_profile"
+alias zzz="pmset sleepnow"
 
+# Apps
 alias imageoptim="imageoptim -j -a -q -d"
 alias macd="macdown"
+
 # Projects
 alias dbreset="be rake db:drop; be rake db:create && be rake db:migrate && be rake db:seed"
 alias gitk="gitk --all&"
 
 # Personal
 alias proj="cd Dropbox/projects/"
+alias blog="cd Dropbox/projects/nchristiny.github.io/"
 alias serveblog="jekyll serve --config _config.yml,_config_dev.yml"
 alias weather="curl -4 http://wttr.in/Chicago"
