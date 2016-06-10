@@ -14,12 +14,7 @@ GIT_PROMPT_ONLY_IN_REPO=1
 # as last entry source the gitprompt script
 # GIT_PROMPT_THEME=Custom # use custom .git-prompt-colors.sh
 # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
-# source ~/.bash-git-prompt/gitprompt.sh
 source /usr/local/etc/bash_completion.d/git-prompt.sh
-
-# random Zen of Python quote
-# https://gist.github.com/AgustinLado/4fd1355bf5b8edae2261
-# python -c "import sys, random; stdout = sys.stdout; sys.stdout = type('BlackHole', (), {'write': (lambda self, string: '')})(); import this; sys.stdout = stdout; print random.choice(''.join([this.d.get(i, i) for i in this.s]).splitlines()[2:]);" | cowsay -f tux | lolcat
 
 echo "I'm completely operational, and all of my circuits are functioning perfectly."
 
