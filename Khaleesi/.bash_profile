@@ -9,10 +9,9 @@ test -d /usr/local/bin && export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PAT
 # Path for Heroku
 test -d /usr/local/heroku/ && export PATH="/usr/local/heroku/bin:$PATH"
 
-# Prompt
+# Git completion, PS1 variable
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='\n\[\033[34m\]\W\[\033[31m\]$(__git_ps1 " (%s)")\[\033[00m\]\$ '
-
+export PS1='\n\[\033[34m\]\W\[\033[31m\]$(__git_ps1 " (%s)")\[\033[00m\]🚀  '
 # bash-git-prompt - https://github.com/magicmonty/bash-git-prompt
 if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
   GIT_PROMPT_THEME=Default
