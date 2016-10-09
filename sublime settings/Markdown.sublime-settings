@@ -1,6 +1,6 @@
 {
-    "color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
-    "draw_centered": true, // Centers the column in the window
+    "color_scheme": "Packages/Monokai - Spacegray/Monokai - Spacegray.tmTheme",
+    "draw_centered": true,
     "draw_indent_guides": false,
     "extensions":
     [
@@ -14,5 +14,5 @@
     "font_size": 14,
     "trim_trailing_white_space_on_save": false,
     "word_wrap": true,
-    "wrap_width": 80  // Sets the # of characters per line
+    "wrap_width": 80
 }

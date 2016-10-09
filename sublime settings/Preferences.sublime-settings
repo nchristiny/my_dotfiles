@@ -2,8 +2,7 @@
   "auto_complete_delay": 25,
   "bold_folder_labels": true,
   "caret_style": "blink",
-  "color_scheme": "Packages/Predawn Monokai/Predawn Monokai.tmTheme",
-  "draw_white_space": "selection",
+  "color_scheme": "Packages/Monokai - Spacegray/Monokai - Spacegray.tmTheme",
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
   [
@@ -46,7 +45,7 @@
     "log"
   ],
   "font_face": "Inconsolata-dz",
-  "font_size": 12.0,
+  "font_size": 14.0,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
@@ -60,12 +59,6 @@
   ],
   "line_padding_bottom": 0.5,
   "line_padding_top": 0.5,
-  "predawn_tabs_active_underline": true,
-  "predawn_tabs_small": true,
-  "predawn_sidebar_arrows": true,
-  "predawn_sidebar_small": true,
-  "predawn_findreplace_small": true,
-  "predawn_quick_panel_small": true,
   "rulers":
   [
     80
@@ -73,8 +66,12 @@
   "save_on_focus_lost": true,
   "scroll_past_end": true,
   "shift_tab_unindent": true,
+  "spacegray_sidebar_font_small": true,
+  "spacegray_sidebar_tree_small": true,
+  "spacegray_tabs_font_small": true,
+  "spacegray_tabs_small": true,
   "tab_size": 2,
-  "theme": "predawn-DEV.sublime-theme",
+  "theme": "Spacegray.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": "true"
