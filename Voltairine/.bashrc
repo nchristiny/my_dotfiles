@@ -39,14 +39,13 @@ alias zzz="pmset sleepnow"
 
 # Apps
 alias imageoptim="imageoptim -j -a -q -d"
-alias macd="macdown"
 
 # Projects
 alias dbreset="be rake db:drop; be rake db:create && be rake db:migrate && be rake db:seed"
 alias gitk="gitk --all&"
 
 # Personal
-alias proj="cd ~/Dropbox/projects/"
-alias blog="cd ~/Dropbox/projects/nchristiny.github.io/"
+alias proj="cd ~/projects/"
+alias blog="cd ~/projects/nchristiny.github.io/"
 alias serveblog="jekyll serve --config _config.yml,_config_dev.yml"
 alias weather="curl -4 http://wttr.in/Chicago"

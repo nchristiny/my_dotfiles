@@ -17,4 +17,3 @@ def clear
 end
 
 puts ("Loading ~/.irbrc a file that loads everytime you load irb")
-puts ("Awesomeprint enabled.")
