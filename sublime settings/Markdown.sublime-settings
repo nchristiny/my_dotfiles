@@ -12,7 +12,7 @@
       "mmd",
       "txt"
   ],
-  "font_size": 18,  // save eyeball strain
+  "font_size": 16,  // save eyeball strain
   "spell_check": true,
   "trim_trailing_white_space_on_save": false,
   "word_wrap": true,

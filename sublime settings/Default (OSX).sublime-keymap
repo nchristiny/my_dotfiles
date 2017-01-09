@@ -7,6 +7,4 @@
   { "keys": ["super+shift+v"], "command": "paste" },
   // Reindent shortcut
   { "keys": ["super+shift+r"],  "command": "reindent" },
-  // Markdown Preview in Browser with GitHub Markdown
-  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} }
 ]
