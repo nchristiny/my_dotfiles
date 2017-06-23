@@ -16,8 +16,6 @@ GIT_PROMPT_ONLY_IN_REPO=1
 # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 
-echo "I'm completely operational, and all of my circuits are functioning perfectly."
-
 # Aliases
 # System
 alias ls="ls -FArthoG"
@@ -36,8 +34,11 @@ alias pscpu10="ps aux | sort -nr -k 3 | head -10"
 alias bashrc="subl ~/.bashrc && source ~/.bashrc"
 alias reload="source ~/.bash_profile"
 alias zzz="pmset sleepnow"
+alias fhere="find . -name "
+alias myip="curl http://ipecho.net/plain; echo"
 
 # Apps
+alias typora="open -a typora"
 alias imageoptim="imageoptim -j -a -q -d"
 
 # Projects
@@ -45,6 +46,7 @@ alias dbreset="be rake db:drop; be rake db:create && be rake db:migrate && be ra
 alias gitk="gitk --all&"
 
 # Personal
+alias school="cd ~/Dropbox/school/CIS\ 144\ -\ Java\ Programming/workspace/"
 alias proj="cd ~/Dropbox/projects/"
 alias blog="cd ~/Dropbox/projects/nchristiny.github.io/"
 alias serveblog="jekyll serve --config _config.yml,_config_dev.yml"
