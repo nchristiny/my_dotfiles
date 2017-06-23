@@ -1,4 +1,4 @@
-#Fri Jun 23 13:15:59 CDT 2017
+#Fri Jun 23 13:23:38 CDT 2017
 \!/=
 /configuration/com.genuitec.eclipse.monitor//webclipse/ideused/dayOfMonth=23
 /configuration/com.genuitec.eclipse.monitor//webclipse/ideused/month=5
@@ -913,9 +913,9 @@
 /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
 /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
 /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.consoleBackground=255,255,255
-/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.errorColor=0,128,0
-/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.inColor=128,0,255
-/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.outColor=128,0,255
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.errorColor=204,40,48
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.inColor=90,141,78
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.outColor=32,99,241
 /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.save_dirty_editors_before_launch=always
 /instance/org.eclipse.debug.ui/preferredTargets=default\:default|
 /instance/org.eclipse.dltk.ruby.ui/DLTK_comment_task_tag=0,128,0
@@ -1618,7 +1618,7 @@
 /instance/org.eclipse.ui.editors/pydevOccurrenceIndicationColor=239,239,239
 /instance/org.eclipse.ui.editors/searchResultIndicationColor=239,239,239
 /instance/org.eclipse.ui.editors/secondaryIPColor=238,238,238
-/instance/org.eclipse.ui.editors/spellingEnabled=true
+/instance/org.eclipse.ui.editors/spellingEnabled=false
 /instance/org.eclipse.ui.editors/writeOccurrenceIndicationColor=239,239,239
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 /instance/org.eclipse.ui.ide/PROBLEMS_FILTERS_MIGRATE=true
