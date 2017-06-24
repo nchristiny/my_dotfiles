@@ -37,6 +37,10 @@ alias zzz="pmset sleepnow"
 alias fhere="find . -name "
 alias myip="curl http://ipecho.net/plain; echo"
 
+# Open man page in Vim
+# https://stackoverflow.com/a/42466441/4808755
+alias wat='f(){ man "$1" | ul -i | vim -;  unset -f f; }; f'
+
 # Apps
 alias typora="open -a typora"
 alias imageoptim="imageoptim -j -a -q -d"
