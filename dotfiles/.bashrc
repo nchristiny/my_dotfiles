@@ -50,7 +50,7 @@ alias dbreset="be rake db:drop; be rake db:create && be rake db:migrate && be ra
 alias gitk="gitk --all&"
 
 # Personal
-alias school="cd ~/Dropbox/school/CIS\ 144\ -\ Java\ Programming/workspace/"
+alias school="cd ~/Dropbox/school/"
 alias proj="cd ~/Dropbox/projects/"
 alias blog="cd ~/Dropbox/projects/nchristiny.github.io/"
 alias serveblog="jekyll serve --config _config.yml,_config_dev.yml"
