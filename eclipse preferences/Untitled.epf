@@ -1,14 +1,22 @@
-#Thu Jun 29 14:44:20 CDT 2017
+#Sun Dec 03 14:02:50 CST 2017
 \!/=
-/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/dayOfMonth=29
-/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/month=5
-/configuration/com.genuitec.eclipse.monitor/ideused=11
-/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.check.timestamp=1498752486847
-/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.etag="5943e819-17c3"
-/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.modified-date=Fri, 16 Jun 2017 14\:15\:53 GMT
+/configuration/com.genuitec.eclipse.core/pointsHistory=201705\=0,201706\=0,201708\=0
+/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/dayOfMonth=3
+/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/month=11
+/configuration/com.genuitec.eclipse.monitor/ideused=1
+/configuration/com.genuitec.eclipse.startup/features=[{"launchCount"\:4,"id"\:"com.genuitec.eclipse.theming.feature","version"\:"1.9.0.201711281850"}]
+/configuration/com.genuitec.eclipse.startup/launchCount=3
+/configuration/com.genuitec.eclipse.startup/useNewStartupDialog=true
+/configuration/com.genuitec.eclipse.startup/welcomeFlowVersionShown=3
+/configuration/com.genuitec.eclipse.theming.ui/devStyleBetaOffered=true
+/configuration/com.genuitec.eclipse.theming.ui/disableDevStyleTheming=true
+/configuration/com.genuitec.eclipse.theming.ui/lastConfiguration=1.512330125533E12
+/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.check.timestamp=1512329686428
+/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.etag="5a1eca8b-1292"
+/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.modified-date=Wed, 29 Nov 2017 14\:56\:11 GMT
 /configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.url=http\://www.genuitec.com/updates/webclipse/ci/webclipse.json
-/configuration/com.genuitec.eclipse.webclipse.evergreen/release-notes-ids=2017ci6
-/configuration/com.genuitec.eclipse.webclipse.evergreen/webclipse.installed-release=1.8.2.201706151517
+/configuration/com.genuitec.eclipse.webclipse.evergreen/release-notes-ids=2017ci6,2017ci8,2017ci9
+/configuration/com.genuitec.eclipse.webclipse.evergreen/webclipse.installed-release=1.9.0.201711281859
 /configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
 /configuration/org.eclipse.epp.logging.aeri.ide/anonymizeMessages=false
 /configuration/org.eclipse.epp.logging.aeri.ide/anonymizeStackTraces=true
@@ -271,12 +279,15 @@
 /instance/com.dubture.twig.ui/editorColorTask=\#008000 | null | null | null | null | null
 /instance/com.dubture.twig.ui/editorColorVariable=\#000080 | null | null | null | null | null
 /instance/com.dubture.twig.ui/editorStmtColorBoundarymaker=\#8000FF | null | null | null | null | null
-/instance/com.genuitec.eclipse.monitor/last.upload.time=1498754288432
+/instance/com.genuitec.eclipse.monitor/last.upload.time=1512330204418
+/instance/com.genuitec.eclipse.theming.ui/applyBackground=false
 /instance/com.genuitec.eclipse.theming.ui/approved.defs.file.last.changed.time=1496700174000
 /instance/com.genuitec.eclipse.theming.ui/iconcolormode=primary
 /instance/com.genuitec.eclipse.theming.ui/last.download.attempt.time=1498061852062
+/instance/com.genuitec.eclipse.theming.ui/lastConfiguration=1.51233095876E12
 /instance/com.genuitec.eclipse.theming.ui/newinstall=false
 /instance/com.genuitec.eclipse.theming.ui/showWelcomeDialog=false
+/instance/com.genuitec.eclipse.theming.ui/workbench.theme=Dark Gray
 /instance/com.github.eclipsecolortheme/colorTheme=Notepad++ Like
 /instance/com.github.eclipsecolortheme/forceDefaultBG=false
 /instance/com.palantir.typescript/syntaxColoring.comment.color=0,128,0
@@ -899,7 +910,7 @@
 /instance/org.eclipse.cdt.ui/sourceHoverBackgroundColor.SystemDefault=false
 /instance/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
 /instance/org.eclipse.core.resources/encoding=UTF-8
-/instance/org.eclipse.core.resources/org.eclipse.jdt.core.interfaceFormat=ZC5|GC5|FGNEG756250|CEB5|QC5|Q5|PQ5
+/instance/org.eclipse.core.resources/org.eclipse.jdt.core.interfaceFormat=ZC5|GC5|FGNEG756266|CEB5|QC5|Q5|PQ8
 /instance/org.eclipse.core.resources/version=1
 /instance/org.eclipse.datatools.sqltools.sqleditor/Double\ quoted\ string=0,0,0,0,0,128,128,128
 /instance/org.eclipse.datatools.sqltools.sqleditor/Identifier=0,0,0,0,0,255,0,255
@@ -1080,8 +1091,8 @@
 /instance/org.eclipse.e4.ui.css.swt.theme/themeid=org.eclipse.e4.ui.css.theme.e4_default
 /instance/org.eclipse.e4.ui.workbench.renderers.swt/enableMRU=true
 /instance/org.eclipse.e4.ui.workbench.renderers.swt/themeEnabled=true
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=/Users/nyc/Dropbox/school/CIS 144 - Java Programming/workspace/.git\:
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories.relative=.git\:
+/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=/Users/nyc/Dropbox/school/CIS 144 - Java Programming/workspace/.git\:/Users/nyc/Dropbox/school/CIS 244 - Adv Java Programming/new-workspace/.git\:
+/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories.relative=.git\:/Users/nyc/Dropbox/school/CIS 244 - Adv Java Programming/new-workspace/.git\:
 /instance/org.eclipse.epp.logging.aeri.ide/anonymizeMessages=false
 /instance/org.eclipse.epp.logging.aeri.ide/anonymizeStackTraces=true
 /instance/org.eclipse.epp.logging.aeri.ide/configured=true
@@ -1094,6 +1105,18 @@
 /instance/org.eclipse.epp.logging.aeri.ide/sendMode=NEVER
 /instance/org.eclipse.epp.mpc.ui//News/http___marketplace_eclipse_org=[1495598400]http\://www.eclipse.org/community/eclipse_newsletter/2017/may/
 /instance/org.eclipse.epp.mpc.ui/CatalogDescriptor=http\://marketplace.eclipse.org
+/instance/org.eclipse.help.base/dialog_infopop=false
+/instance/org.eclipse.help.base/help_view_open_mode=in_place
+/instance/org.eclipse.help.base/remoteHelpHost=
+/instance/org.eclipse.help.base/remoteHelpICEnabled=
+/instance/org.eclipse.help.base/remoteHelpName=
+/instance/org.eclipse.help.base/remoteHelpOn=false
+/instance/org.eclipse.help.base/remoteHelpPath=
+/instance/org.eclipse.help.base/remoteHelpPort=
+/instance/org.eclipse.help.base/remoteHelpPreferred=false
+/instance/org.eclipse.help.base/remoteHelpProtocol=
+/instance/org.eclipse.help.base/search_from_browser=false
+/instance/org.eclipse.help.base/window_infopop=false
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_LIB=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_SRC=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=src
@@ -1420,7 +1443,7 @@
 /instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="52,org.eclipse.jdt.internal.launching.macosx.MacOSXType25,com.oracle.java.8u131.jdk" defaultVMConnector\="">\n<vmType id\="org.eclipse.jdt.internal.launching.macosx.MacOSXType">\n<vm id\="com.oracle.java.8u131.jdk" name\="Java SE 8 [1.8.0_131]" path\="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"/>\n</vmType>\n</vmSettings>\n
 /instance/org.eclipse.jdt.ui/content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
 /instance/org.eclipse.jdt.ui/content_assist_favorite_static_members=
-/instance/org.eclipse.jdt.ui/content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+/instance/org.eclipse.jdt.ui/content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Number"><rhs name\="java.math.BigDecimal"/></lhs><lhs name\="java.math.BigDecimal"><rhs name\="java.math.BigDecimal"/></lhs></history>
 /instance/org.eclipse.jdt.ui/content_assist_number_of_computers=19
 /instance/org.eclipse.jdt.ui/content_assist_proposals_background=255,255,255
 /instance/org.eclipse.jdt.ui/content_assist_proposals_foreground=0,0,0
@@ -1457,7 +1480,7 @@
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.templates_migrated=true
-/instance/org.eclipse.jdt.ui/org.eclipse.jface.textfont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
+/instance/org.eclipse.jdt.ui/org.eclipse.jface.textfont=1|Inconsolata-dz|14.0|0|COCOA|1|;
 /instance/org.eclipse.jdt.ui/pf_coloring_argument=0,0,255
 /instance/org.eclipse.jdt.ui/pf_coloring_assignment=128,0,255
 /instance/org.eclipse.jdt.ui/pf_coloring_comment=0,128,0
@@ -1624,9 +1647,10 @@
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 /instance/org.eclipse.ui.ide/PROBLEMS_FILTERS_MIGRATE=true
 /instance/org.eclipse.ui.ide/SAVE_ALL_BEFORE_BUILD=true
-/instance/org.eclipse.ui.ide/platformState=1497334025731
+/instance/org.eclipse.ui.ide/platformState=1497334026022
 /instance/org.eclipse.ui.ide/quickStart=false
 /instance/org.eclipse.ui.ide/tipsAndTricks=true
+/instance/org.eclipse.ui.navigator/org.eclipse.ui.navigator.ProjectExplorer.filterActivation=\:org.eclipse.jdt.java.ui.filters.HideEmptyInnerPackages\:org.eclipse.jdt.java.ui.filters.HidePackageDeclaration\:org.eclipse.jdt.java.ui.filters.HideOutputFolder\:org.eclipse.buildship.ui.navigator.filter.gradle.subProject\:org.eclipse.jdt.java.ui.filters.HideInnerClassFiles\:org.eclipse.ui.navigator.resources.filters.startsWithDot\:org.eclipse.jdt.java.ui.filters.HideEmptyLibraryContainers\:org.eclipse.jdt.java.ui.filters.HideImportDeclaration\:org.eclipse.jdt.java.ui.filters.HideSyntheticMembers\:org.eclipse.mylyn.tasks.ui.navigator.filters.tasks\:org.eclipse.buildship.ui.navigator.filter.gradle.buildfolder\:
 /instance/org.eclipse.ui.views.log/activate=true
 /instance/org.eclipse.ui.views.log/column2=300
 /instance/org.eclipse.ui.views.log/column3=150
@@ -1643,21 +1667,21 @@
 /instance/org.eclipse.ui.workbench/PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
 /instance/org.eclipse.ui.workbench/RUN_IN_BACKGROUND=true
 /instance/org.eclipse.ui.workbench/editors=<?xml version\="1.0" encoding\="UTF-8"?>\n<editors>\n<descriptor id\="org.eclipse.ui.browser.editorSupport" image\="$nl$/icons/obj16/internal_browser.png" internal\="false" label\="Web Browser" launcher\="org.eclipse.ui.internal.browser.BrowserLauncher" openMode\="4" open_in_place\="false" plugin\="org.eclipse.ui.browser"/>\n<descriptor class\="org.eclipse.oomph.setup.presentation.SetupEditor" id\="org.eclipse.oomph.setup.presentation.SetupEditorID" image\="icons/full/obj16/SetupModelFile.gif" internal\="true" label\="Setup Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.oomph.setup.editor"/>\n<descriptor class\="org.eclipse.oomph.workingsets.presentation.WorkingSetsEditor" id\="org.eclipse.oomph.workingsets.presentation.WorkingSetsEditorID" image\="icons/full/obj16/WorkingSetsModelFile.gif" internal\="true" label\="Working Sets Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.oomph.workingsets.editor"/>\n<descriptor class\="org.eclipse.jdt.internal.ui.javaeditor.ClassFileEditor" id\="org.eclipse.jdt.ui.ClassFileEditorNoSource" image\="$nl$/icons/full/obj16/classf_obj.png" internal\="true" label\="Class File Viewer" openMode\="1" open_in_place\="false" plugin\="org.eclipse.jdt.ui"/>\n<descriptor id\="org.eclipse.jdt.ui.JARDescEditor" image\="$nl$/icons/full/obj16/jar_desc_obj.png" internal\="false" label\="JAR Export Wizard" launcher\="org.eclipse.jdt.internal.ui.jarpackager.OpenJarExportWizardEditorLauncher" openMode\="4" open_in_place\="false" plugin\="org.eclipse.jdt.ui"/>\n<descriptor class\="org.eclipse.jdt.internal.debug.ui.snippeteditor.JavaSnippetEditor" id\="org.eclipse.jdt.debug.ui.SnippetEditor" image\="$nl$/icons/full/obj16/jsbook_obj.gif" internal\="true" label\="Scrapbook" openMode\="1" open_in_place\="false" plugin\="org.eclipse.jdt.debug.ui"/>\n<descriptor class\="org.eclipse.ui.editors.text.TextEditor" id\="org.eclipse.buildship.ui.gradlebuildscripteditor" image\="icons/full/obj16/gradle_logo.png" internal\="true" label\="Gradle Build Script Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.buildship.ui"/>\n<descriptor class\="org.eclipse.m2e.editor.pom.MavenPomEditor" id\="org.eclipse.m2e.editor.MavenPomEditor" image\="icons/editor-pom.gif" internal\="true" label\="Maven POM Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.m2e.editor"/>\n</editors>
-/instance/org.eclipse.ui.workbench/org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.DetailPaneFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.MemoryViewTableFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.consoleFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.CommitMessageEditorFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.CommitMessageFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.DiffHeadlineFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.jdt.ui.editors.textfont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.jface.textfont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.recommenders.snipmatch.rcp.searchTextFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.TerminateAndRelaunch" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+R"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunToLine" contextId\="org.eclipse.debug.ui.debugging" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+R"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+R"/>\n<keyBinding commandId\="org.eclipse.ui.window.preferences" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+P"/>\n<keyBinding contextId\="org.eclipse.debug.ui.debugging" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+R"/>\n<keyBinding commandId\="org.eclipse.ui.project.cleanAction" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+K"/>\n<keyBinding commandId\="org.eclipse.ui.edit.findPrevious" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+G"/>\n<keyBinding commandId\="org.eclipse.ui.edit.findNext" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+G"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+K"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+K"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+COMMAND+ARROW_LEFT"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.DebugLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+Y"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+F11"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+F11"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+["/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+R"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_LEFT"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.goto.lineStart" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_LEFT , CTRL+A"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_RIGHT"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.goto.lineEnd" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_RIGHT , CTRL+E"/>\n</org.eclipse.ui.commands>
+/instance/org.eclipse.ui.workbench/org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.DetailPaneFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.MemoryViewTableFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.debug.ui.consoleFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.CommitMessageEditorFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.CommitMessageFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.egit.ui.DiffHeadlineFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.jdt.ui.editors.textfont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.jface.textfont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.recommenders.snipmatch.rcp.searchTextFont=1|Inconsolata-dz|14.0|0|COCOA|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.TerminateAndRelaunch" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+R"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.goto.lineEnd" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_RIGHT , CTRL+E"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.goto.lineStart" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_LEFT , CTRL+A"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunToLine" contextId\="org.eclipse.debug.ui.debugging" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+R"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+R"/>\n<keyBinding contextId\="org.eclipse.debug.ui.debugging" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+R"/>\n<keyBinding commandId\="org.eclipse.ui.project.cleanAction" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+K"/>\n<keyBinding commandId\="org.eclipse.ui.edit.findPrevious" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+G"/>\n<keyBinding commandId\="org.eclipse.ui.file.print" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+P"/>\n<keyBinding commandId\="org.eclipse.ui.edit.findNext" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+G"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+K"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+K"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_LEFT"/>\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+ARROW_RIGHT"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+COMMAND+ARROW_LEFT"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.DebugLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+Y"/>\n<keyBinding commandId\="org.eclipse.ui.views.showView" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+P">\n<parameter id\="org.eclipse.ui.views.showView.viewId" value\="org.eclipse.ui.navigator.ProjectExplorer"/>\n</keyBinding>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+P"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+F11"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+F11"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+["/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+R"/>\n<keyBinding contextId\="org.eclipse.jdt.ui.javaEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+CTRL+/"/>\n<keyBinding commandId\="org.eclipse.jdt.ui.edit.text.java.add.block.comment" contextId\="org.eclipse.jdt.ui.javaEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+CTRL+/"/>\n</org.eclipse.ui.commands>
 /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
 /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.debug.ui.DetailPaneFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
 /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.debug.ui.MemoryViewTableFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
@@ -1675,10 +1699,8 @@
 /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
 /instance/org.eclipse.ui.workbench/org.eclipse.ui.r30.org.eclipse.wst.sse.ui.textfont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
 /instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
-/instance/org.eclipse.ui.workbench/org.eclipse.wst.sse.ui.textfont=1|Inconsolata-dz|12.0|0|COCOA|1|Inconsolata-dz;
+/instance/org.eclipse.ui.workbench/org.eclipse.wst.sse.ui.textfont=1|Inconsolata-dz|14.0|0|COCOA|1|;
 /instance/org.eclipse.ui.workbench/resourcetypes=<?xml version\="1.0" encoding\="UTF-8"?>\n<editors version\="3.1">\n<info extension\="shtml" name\="*">\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\n</info>\n<info extension\="setup" name\="*">\n<editor id\="org.eclipse.oomph.setup.presentation.SetupEditorID"/>\n</info>\n<info extension\="workingsets" name\="*">\n<editor id\="org.eclipse.oomph.workingsets.presentation.WorkingSetsEditorID"/>\n</info>\n<info extension\="class without source" name\="*">\n<editor id\="org.eclipse.jdt.ui.ClassFileEditorNoSource"/>\n</info>\n<info extension\="jardesc" name\="*">\n<editor id\="org.eclipse.jdt.ui.JARDescEditor"/>\n<defaultEditor id\="org.eclipse.jdt.ui.JARDescEditor"/>\n</info>\n<info extension\="htm" name\="*">\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\n</info>\n<info extension\="html" name\="*">\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\n</info>\n<info extension\="jpage" name\="*">\n<editor id\="org.eclipse.jdt.debug.ui.SnippetEditor"/>\n</info>\n<info extension\="gradle" name\="*">\n<editor id\="org.eclipse.buildship.ui.gradlebuildscripteditor"/>\n</info>\n<info extension\="pom" name\="*">\n<editor id\="org.eclipse.m2e.editor.MavenPomEditor"/>\n<defaultEditor id\="org.eclipse.m2e.editor.MavenPomEditor"/>\n</info>\n<info extension\="xml" name\="pom">\n<editor id\="org.eclipse.m2e.editor.MavenPomEditor"/>\n<defaultEditor id\="org.eclipse.m2e.editor.MavenPomEditor"/>\n</info>\n</editors>
-/instance/org.eclipse.ui/CURRENT_THEME_ID=org.eclipse.ui.r30
-/instance/org.eclipse.ui/ENABLE_ANIMATIONS=true
 /instance/org.eclipse.ui/showIntro=false
 /instance/org.eclipse.wst.css.ui/ATMARK_RULE=\#FF00FF | null | null | null | null | null
 /instance/org.eclipse.wst.css.ui/ATTRIBUTE_DELIM=\#FF00FF | null | null | null | null | null
@@ -2052,8 +2074,6 @@
 /instance/winterwell.markdown/Pref_Default=128,0,255
 /instance/winterwell.markdown/Pref_Header=0,128,0
 /instance/winterwell.markdown/Pref_Link=128,0,128
-@com.genuitec.eclipse.monitor=13.0.0.201706011333
-@com.genuitec.eclipse.theming.ui=1.8.1.201706061843
 @com.github.eclipsecolortheme=1.0.0.201410260308
 @org.eclipse.ant.ui=3.6.201.v20161115-1135
 @org.eclipse.core.net=1.3.0.v20160418-1534
@@ -2064,6 +2084,7 @@
 @org.eclipse.egit.core=4.6.1.201703071140-r
 @org.eclipse.epp.logging.aeri.ide=2.0.4.v20170307-1435
 @org.eclipse.epp.mpc.ui=1.5.4.v20170222-1941
+@org.eclipse.help.base=4.1.2.v20170301-0400
 @org.eclipse.jdt.core=3.12.3.v20170228-1205
 @org.eclipse.jdt.launching=3.8.101.v20161111-2014
 @org.eclipse.jdt.ui=3.12.2.v20160929-0804
@@ -2079,6 +2100,7 @@
 @org.eclipse.ui.browser=3.5.2.v20161114-0210
 @org.eclipse.ui.editors=3.10.1.v20161106-1856
 @org.eclipse.ui.ide=3.12.3.v20170119-0935
+@org.eclipse.ui.navigator=3.6.101.v20161006-1120
 @org.eclipse.ui.views.log=1.2.1.v20160829-0826
 @org.eclipse.ui.workbench=3.108.3.v20170216-1539
 @org.eclipse.wst.dtd.ui=1.0.801.v201308100602
