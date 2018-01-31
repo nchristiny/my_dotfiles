@@ -1,10 +1,17 @@
 {
+  "added_words":
+  [
+    "Online",
+    "Christiny",
+    "param",
+    "args"
+  ],
   "auto_complete_commit_on_tab": true,
   "auto_complete_delay": 25,
   "auto_complete_with_fields": true,
   "bold_folder_labels": true,
   "caret_style": "phase",
-  "color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
+  "color_scheme": "Packages/Monokai - Spacegray/Monokai - Spacegray.tmTheme",
   "draw_white_space": "selection",
   "enable_tab_scrolling": false,
   "ensure_newline_at_eof_on_save": true,
@@ -50,12 +57,11 @@
     "log"
   ],
   "font_face": "Inconsolata-dz",
-  "font_size": 14.0,
+  "font_size": 12.0,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
   [
-    "CSS",
     "Vintage"
   ],
   "indent_guide_options":

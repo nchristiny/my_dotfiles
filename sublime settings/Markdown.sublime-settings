@@ -13,6 +13,10 @@
       "txt"
   ],
   "font_size": 16,  // save eyeball strain
+  "rulers":
+  [
+    80
+  ],
   "spell_check": true,
   "trim_trailing_white_space_on_save": false,
   "word_wrap": true,
