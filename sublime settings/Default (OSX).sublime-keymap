@@ -6,5 +6,7 @@
   // Vanilla Paste (no indent)
   { "keys": ["super+shift+v"], "command": "paste" },
   // Reindent shortcut
-  { "keys": ["super+shift+i"],  "command": "reindent" },
+  { "keys": ["super+shift+r"],  "command": "reindent" },
+  // Prettier
+  { "keys": ["super+alt+f"], "command": "js_prettier" }
 ]
