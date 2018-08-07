@@ -10,6 +10,8 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
+	<key>AutoCommandHistory</key>
+	<true/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>cobalt2</key>
@@ -284,9 +286,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>187 163 796 473 0 0 1440 877 </string>
+	<string>142 353 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>48 382 650 377 0 0 1440 877 </string>
+	<string>0 500 650 377 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2185,16 +2187,20 @@
 			<string>/Users/nyc</string>
 		</dict>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>7BC65BC0-DAE6-4618-B3A1-B2D761C633A9</string>
 	<key>NoSyncLastTipTime</key>
-	<real>551729690.44217396</real>
+	<real>552062645.50096202</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>551727768.69598901</real>
 	<key>NoSyncTipsDisabled</key>
@@ -2202,6 +2208,7 @@
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
+		<string>0000</string>
 	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
@@ -2257,11 +2264,18 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-26T17:47:05Z</date>
+	<date>2018-06-30T14:44:04Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SavePasteHistory</key>
+	<true/>
 	<key>TabStyle</key>
 	<integer>1</integer>
+	<key>ToolbeltTools</key>
+	<array>
+		<string>Recent Directories</string>
+		<string>Command History</string>
+	</array>
 	<key>iTerm Version</key>
 	<string>3.1.6</string>
 </dict>
