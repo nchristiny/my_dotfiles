@@ -1,6 +1,5 @@
 // These settings override both User and Default settings for the Markdown syntax
 {
-  "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
   "draw_centered": true,
   "draw_indent_guides": false,
   "extensions":
@@ -12,7 +11,8 @@
       "mmd",
       "txt"
   ],
-  "font_size": 16,  // save eyeball strain
+  "font_face": "Inconsolata-dz",
+  "font_size": 12,
   "rulers":
   [
     80
