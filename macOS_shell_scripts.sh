@@ -12,7 +12,7 @@
 # Disable pop-up Accent Window when holding keyboard key
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# Set fast key repeat speed (try 0 or 1) 
+# Set fast key repeat speed (try 0 or 1)
 defaults write NSGlobalDomain KeyRepeat -int 0
 # Set fastest hold before repeat (try lower if too sensitive)
 defaults write NSGlobalDomain InitialKeyRepeat -int 12
@@ -30,10 +30,10 @@ defaults write com.apple.helpviewer DevMode -bool true
 # Enable Tab in modal dialogs (Full keyboard access)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# Disable menubar transparency 
+# Disable menubar transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
-# Enable faster showing, hiding, resizing, and zooming windows in Cocoa applications 
+# Enable faster showing, hiding, resizing, and zooming windows in Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 # Expanded save panels by default
@@ -68,7 +68,7 @@ defaults write com.apple.TextEdit SmartDashes -bool false
 # defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 # Set location, filetype, and remove shadow for screenshots
-defaults write com.apple.screencapture location -string "${HOME}/Desktop"
+defaults write com.apple.screencapture location -string "${HOME}/OneDrive - Denim Group, Ltd/screenshots"
 defaults write com.apple.screencapture type -string "png"
 defaults write com.apple.screencapture disable-shadow -bool true
 
@@ -270,7 +270,7 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 defaults write com.apple.DiskUtility advanced-image-options -bool true
 
-# Disable Smart Quotes and automatic Spell Checking in "ducking" Messages 
+# Disable Smart Quotes and automatic Spell Checking in "ducking" Messages
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
@@ -278,7 +278,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
-# For SSD and Retina Macs: Increase time before "deep sleep" standby mode to 24 hours 
+# For SSD and Retina Macs: Increase time before "deep sleep" standby mode to 24 hours
 # (10800 default in Sierra - 3 hours)
 # This speeds up wake up time, but uses up more battery power. To check current value `pmset -g`
 # source https://blog.ewal.net/fixing-slow-wake-for-macbook-pro-w-retina-display/
