@@ -12,10 +12,11 @@
 # Disable pop-up Accent Window when holding keyboard key
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# Set fast key repeat speed (try 0 or 1)
-defaults write NSGlobalDomain KeyRepeat -int 0
-# Set fastest hold before repeat (try lower if too sensitive)
-defaults write NSGlobalDomain InitialKeyRepeat -int 12
+# On second thoughts let's not KeyRepeat -int 0 it is a silly place
+# # Set fast key repeat speed (try 0 or 1)
+# defaults write NSGlobalDomain KeyRepeat -int 0
+# # Set fastest hold before repeat (try lower if too sensitive)
+# defaults write NSGlobalDomain InitialKeyRepeat -int 12
 
 # Make text selectable in Quick Look
 defaults write com.apple.finder QLEnableTextSelection -bool true
