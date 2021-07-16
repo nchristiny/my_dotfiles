@@ -1,3 +1,7 @@
+[user]
+  name = nchristiny
+  email = 8389582+nchristiny@users.noreply.github.com
+  
 [core]
   # Excludesfiles allows us to set a global list of things to ignore
   excludesfile = ~/.gitignore_global
@@ -38,6 +42,9 @@
 
   # Edit the last commit
   amend= commit --verbose --amend
-[user]
-  name = nchristiny
-  email = 8389582+nchristiny@users.noreply.github.com
+  
+[pull]
+  rebase = false
+  
+[init]
+  defaultBranch = main
