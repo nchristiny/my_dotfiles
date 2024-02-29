@@ -1,0 +1,23 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+  "draw_centered": true,
+  "draw_indent_guides": false,
+  "extensions":
+  [
+      "markdown",
+      "md",
+      "mdown",
+      "mdwn",
+      "mmd",
+      "txt"
+  ],
+  "font_size": 12,
+  "rulers":
+  [
+    80
+  ],
+  "spell_check": true,
+  "trim_trailing_white_space_on_save": false,
+  "word_wrap": true,
+  "wrap_width": 80
+}
