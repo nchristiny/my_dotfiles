@@ -1,26 +1,13 @@
-# A list of bash commands to setup a new macOS environment
-# Some commands may be out of date or cause harm to your system
-# Use at own risk
-
-# Useful brew formulae
-# brew install bash-git-prompt bash-completion trash
-# brew tap homebrew/completions
-
-# Reduce transparency and motion from Accessibility > Display menu
-# Also disable "Shake mouse pointer to locate"
+#!/bin/sh
+# Setup a new macOS environment
+# Many commands may be out of date or cause harm to your system
+# Use at your own risk
 
 # Disable pop-up Accent Window when holding keyboard key
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# On second thoughts let's not KeyRepeat -int 0 it is a silly place
-# # Set fast key repeat speed (try 0 or 1)
-# defaults write NSGlobalDomain KeyRepeat -int 0
-# # Set fastest hold before repeat (try lower if too sensitive)
-# defaults write NSGlobalDomain InitialKeyRepeat -int 12
-
 # Make text selectable in Quick Look
 defaults write com.apple.finder QLEnableTextSelection -bool true
-killall Finder
 
 # Fast opening and closing windows and popovers
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
@@ -63,13 +50,8 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 defaults write com.apple.TextEdit SmartQuotes -bool false
 defaults write com.apple.TextEdit SmartDashes -bool false
 
-# Increase bitrate of A2DP bluetooth audio which lowers compression of sounds
-# Looks like this command is obsolete unless you have downloaded Bluetooth Explorer via Hardware IO Tools for Xcode.
-# Leaving this here just in case
-# defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
-
 # Set location, filetype, and remove shadow for screenshots
-defaults write com.apple.screencapture location -string "${HOME}/OneDrive - Denim Group, Ltd/screenshots"
+defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 defaults write com.apple.screencapture type -string "png"
 defaults write com.apple.screencapture disable-shadow -bool true
 
@@ -80,16 +62,15 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 defaults write NSGlobalDomain com.apple.springing.enabled -bool true
 defaults write NSGlobalDomain com.apple.springing.delay -float 0
 
-# Do not create annoying .DS_Store files on network volumes
+# Try not create annoying .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # Use list view in all Finder windows by default
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-# Trash options, no warning before empty and always secure empty (latter obsolete in Sierra)
+# Empty Trash - no warning
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
-defaults write com.apple.finder EmptyTrashSecurely -bool true
 
 # Expand File Info panes for “General”, “Open with”, and “Sharing & Permissions”
 defaults write com.apple.finder FXInfoPanesExpanded -dict General -bool true OpenWith -bool true Privileges -bool true
@@ -100,11 +81,8 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Show hidden files by default - prefer default false keep them out of sight out of mind
-# defaults write com.apple.finder AppleShowAllFiles -bool true
-
-# Kill Dashboard completely
-defaults write com.apple.dashboard mcx-disabled -boolean true
+# Show hidden files
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Enable highlight hover effect for stacks in Dock
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
@@ -121,7 +99,7 @@ defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
 # Show process indicators in Dock
 defaults write com.apple.dock show-process-indicators -bool true
 
-# Disable Dock animations (this may or not be obsolete in Sierra)
+# Disable Dock animations
 defaults write com.apple.dock launchanim -bool false
 
 # Make Mission Control animation faster
@@ -133,18 +111,10 @@ defaults write com.apple.dock expose-group-by-app -bool false
 # Disable the Automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
-# Disable autohide delay of Dock, make it hide and appear with the quickness
+# Disable autohide delay of Dock
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide -bool true
-
-# Add Dock spacer tile
-defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-
-# Pinning no longer possible for OS X Yosemite and later )=
-# defaults write com.apple.dock pinning -string start
-# defaults write com.apple.dock pinning -string end
-# defaults write com.apple.dock pinning -string middle
 
 # Don’t send search queries to Apple via Safari
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
@@ -189,14 +159,15 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write com.apple.mail DisableReplyAnimations -bool true
 defaults write com.apple.mail DisableSendAnimations -bool true
 
-# Include only the email address on pasteboard, not the address + name junk
+# Include only the email address on pasteboard
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
-# Disable inline attachment viewing in Mail (see them as icons by default)
+# Disable inline attachment viewing in Mail
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
 # Exclude external volumes from Spotlight indexing
 sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
+
 # Order and enable/disable filetypes in Spotlight
 defaults write com.apple.spotlight orderedItems -array '{"enabled" = 1;"name" = "APPLICATIONS";}' '{"enabled" = 1;"name" = "SYSTEM_PREFS";}' '{"enabled" = 1;"name" = "DIRECTORIES";}' '{"enabled" = 1;"name" = "PDF";}' '{"enabled" = 1;"name" = "FONTS";}' '{"enabled" = 0;"name" = "DOCUMENTS";}' '{"enabled" = 0;"name" = "MESSAGES";}' '{"enabled" = 0;"name" = "CONTACT";}' '{"enabled" = 0;"name" = "EVENT_TODO";}' '{"enabled" = 0;"name" = "IMAGES";}' '{"enabled" = 0;"name" = "BOOKMARKS";}' '{"enabled" = 0;"name" = "MUSIC";}' '{"enabled" = 0;"name" = "MOVIES";}' '{"enabled" = 0;"name" = "PRESENTATIONS";}' '{"enabled" = 0;"name" = "SPREADSHEETS";}' '{"enabled" = 0;"name" = "SOURCE";}'
 # Load new settings before rebuilding the index
@@ -211,56 +182,25 @@ defaults write com.apple.terminal StringEncodings -array 4
 
 # Show the main window when launching Activity Monitor
 defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
+
 # Show CPU usage in Dock icon
-# 0: Application Icon
-# 2: Network Usage
-# 3: Disk Activity
-# 5: CPU Usage
-# 6: CPU History
 defaults write com.apple.ActivityMonitor IconType -int 5
+
 # Show processes in Activity Monitor
-# 100: All Processes
-# 101: All Processes, Hierarchally
-# 102: My Processes
-# 103: System Processes
-# 104: Other User Processes
-# 105: Active Processes
-# 106: Inactive Processes
-# 106: Inactive Processes
-# 107: Windowed Processes
 defaults write com.apple.ActivityMonitor ShowCategory -int 100
+
 # Sort Activity Monitor results by CPU usage
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
+
 # Show Data in the Disk graph (instead of IO)
 defaults write com.apple.ActivityMonitor DiskGraphType -int 1
+
 # Show Data in the Network graph (instead of packets)
 defaults write com.apple.ActivityMonitor NetworkGraphType -int 1
-# Set columns for each tab
-defaults write com.apple.ActivityMonitor "UserColumnsPerTab v5.0" -dict \
-    '0' '( Command, CPUUsage, CPUTime, Threads, IdleWakeUps, PID, UID )' \
-    '1' '( Command, anonymousMemory, compressedMemory, ResidentSize, ' \
-          'PurgeableMem,Threads, Ports, PID, UID)' \
-    '2' '( Command, PowerScore, 12HRPower, AppSleep, graphicCard, UID )' \
-    '3' '( Command, bytesWritten, bytesRead, Architecture, PID, UID )' \
-    '4' '( Command, txBytes, rxBytes, txPackets, rxPackets, PID, UID )'
-# Sort columns in each tab
-defaults write com.apple.ActivityMonitor UserColumnSortPerTab -dict \
-    '0' '{ direction = 0; sort = CPUUsage; }' \
-    '1' '{ direction = 0; sort = ResidentSize; }' \
-    '2' '{ direction = 0; sort = 12HRPower; }' \
-    '3' '{ direction = 0; sort = bytesWritten; }' \
-    '4' '{ direction = 0; sort = txBytes; }'
-# Previous settings
-# defaults read com.apple.ActivityMonitor "UserColumnsPerTab v5.0" -dict     '0' '( Command, CPUUsage, CPUTime, Threads, PID, UID, Ports )'     '1' '( Command, ResidentSize, Threads, Ports, PID, UID,  )'     '2' '( Command, PowerScore, 12HRPower, AppSleep, UID, powerAssertion )'     '3' '( Command, bytesWritten, bytesRead, Architecture, PID, UID, CPUUsage )'     '4' '( Command, txBytes, rxBytes, PID, UID, txPackets, rxPackets, CPUUsage )'
-# defaults write com.apple.ActivityMonitor UserColumnSortPerTab -dict     '0' '{ direction = 0; sort = CPUUsage; }'     '1' '{ direction = 0; sort = ResidentSize; }'     '2' '{ direction = 0; sort = 12HRPower; }'     '3' '{ direction = 0; sort = bytesWritten; }'     '4' '{ direction = 0; sort = rxBytes; }'
-# Update Frequency (in seconds)
-# 1: Very often (1 sec)
-# 2: Often (2 sec)
-# 5: Default (5 sec)
+
+# Update Frequency (in seconds, default 5)
 defaults write com.apple.ActivityMonitor UpdatePeriod -int 2
-# mavericks only
-# defaults write com.apple.ActivityMonitor "UserColumnsPerTab v4.0" -dict     '0' '( Command, CPUUsage, CPUTime, Threads, IdleWakeUps, PID, UID )'     '1' '( Command, anonymousMemory, Threads, Ports, PID, UID, ResidentSize )'     '2' '( Command, PowerScore, 12HRPower, AppSleep, graphicCard, UID )'     '3' '( Command, bytesWritten, bytesRead, Architecture, PID, UID, CPUUsage )'     '4' '( Command, txBytes, rxBytes, txPackets, rxPackets, PID, UID, CPUUsage )'
 
 # TextEdit defaults to plain text encoding
 defaults write com.apple.TextEdit RichText -int 0
@@ -271,7 +211,7 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 defaults write com.apple.DiskUtility advanced-image-options -bool true
 
-# Disable Smart Quotes and automatic Spell Checking in "ducking" Messages
+# Disable Smart Quotes and automatic Spell Checking in Messages
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
@@ -279,25 +219,11 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
-# For SSD and Retina Macs: Increase time before "deep sleep" standby mode to 24 hours
-# (10800 default in Sierra - 3 hours)
-# This speeds up wake up time, but uses up more battery power. To check current value `pmset -g`
-# source https://blog.ewal.net/fixing-slow-wake-for-macbook-pro-w-retina-display/
-# Disable standby mode altogether setting it to 0
 sudo pmset -a standbydelay 86400
 
-# Disable starup chime
 sudo nvram SystemAudioVolume=" "
 
-# Exterminate ALL the .DS_Store files
 sudo find / -name .DS_Store -delete; killall Finder
 
-# Make iTerm hotkey window open snappily, with no animations
-defaults write com.googlecode.iterm2 HotkeyTermAnimationDuration -float 0
-
-# Reveal IP address, hostname, OS version, etc. when clicking the clock in the login window - nice
-sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
-
 killall Dock
-killall Finder
-# Log out, shutdown, restart machine
+
