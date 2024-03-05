@@ -27,7 +27,3 @@ def clear
 end
 
 puts ("Loading ~/.irbrc a file that loads everytime you load irb")
-
-# Debug breakpoint in IRB
-# binding.irb
-# can also execute specific files >> irb file.rb
