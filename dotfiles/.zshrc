@@ -32,4 +32,4 @@ SAVEHIST=10000
 # Share history in every terminal session
 setopt SHARE_HISTORY
 
-source ~/aliases.zsh
+source ~/.aliases
