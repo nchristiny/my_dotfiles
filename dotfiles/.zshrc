@@ -1,6 +1,21 @@
 # Load rbenv automatically
 eval "$(rbenv init - zsh)"
 
+# Completions
+# Load more completions
+fpath=($DOTFILES/zsh/plugins/zsh-completions/src $fpath)
+
+# Should be called before compinit
+zmodload zsh/complist
+
+autoload -U compinit; compinit
+_comp_options+=(globdots) # With hidden files
+
+# setopt GLOB_COMPLETE      # Show autocompletion menu with globs
+setopt MENU_COMPLETE        # Automatically highlight first element of completion menu
+setopt AUTO_LIST            # Automatically list choices on ambiguous completion.
+setopt COMPLETE_IN_WORD     # Complete from both ends of a word.
+
 # Colors ls should use for folders, files, symlinks etc, see `man ls` and
 # search for LSCOLORS
 export LSCOLORS=ExGxFxdxCxDxDxaccxaeex
@@ -26,6 +41,7 @@ zstyle ':vcs_info:git*' formats ' ↣ (%F{254}%b%F{245})' # format $vcs_info_msg
 
 PS1='%F{254}%n%F{245} ↣ %F{153}%(5~|%-1~/⋯/%3~|%4~)%F{245}${vcs_info_msg_0_} $(parse_git_dirty)$NEWLINE%F{254}$%f '
 
+# ZSH History
 # How many commands to store in history
 HISTSIZE=10000
 SAVEHIST=10000
