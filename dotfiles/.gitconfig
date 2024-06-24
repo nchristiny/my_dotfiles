@@ -4,7 +4,7 @@
 
 [core]
   # Wait for file to close before returning
-  editor = subl -w
+  editor = code -w
   # Excludesfiles allows us to set a global list of things to ignore
   excludesfile = ~/.gitignore_global
   # Use diff-so-fancy for all diff output
@@ -42,7 +42,7 @@
 [alias]
   co = checkout
   gum = git pull upstream main
-
+  s1 = status -sb
   # lg is now a shortcut for a pretty log with short commit messages
   # See the log manpage: https://www.kernel.org/pub/software/scm/git/docs/git-log.html
   # for explanations of what these options do
@@ -55,8 +55,8 @@
   # Edit the last commit
   amend = commit --verbose --amend
 
-[pull]
-  rebase = false
+[rebase]
+  autosquash = true
 
 [init]
   defaultBranch = main

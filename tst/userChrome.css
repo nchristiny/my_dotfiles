@@ -1,0 +1,73 @@
+/* Disable all animation */
+@keyframes throbber {}
+@keyframes tab-burst-animation {}
+@keyframes tab-burst-animation-light {}
+@keyframes blink {}
+
+/* Disable browser theme colors and images */
+:root {
+    --browser-background: unset;
+    --browser-bg-images: unset;
+    --browser-bg-bg-position: unset;
+    --browser-bg-bg-size: unset;
+    --browser-bg-bg-repeat: unset;
+    --browser-bg-base: unset;
+    --browser-bg-less-lighter: unset;
+    --browser-bg-lighter: unset;
+    --browser-bg-more-lighter: unset;
+    --browser-bg-lightest: unset;
+    --browser-bg-less-darker: unset;
+    --browser-bg-darker: unset;
+    --browser-bg-more-darker: unset;
+    --browser-fg: unset;
+    --browser-fg-active: unset;
+    --browser-border: unset;
+    --browser-header-url: unset;
+    --browser-bg-url: unset;
+    --browser-bg-for-header-image: unset;
+    --browser-bg-hover-for-header-image: unset;
+    --browser-bg-active-for-header-image: unset;
+    --browser-textshadow-for-header-image: unset;
+    --browser-tab-highlighter: unset;
+    --browser-loading-indicator: unset;
+    --theme-colors-frame: unset;
+    --theme-colors-tab_background_text: unset;
+    --theme-images-theme_frame: unset;
+  
+    --theme-colors-bookmark_text: unset;
+    --theme-colors-button_background_active: unset;
+    --theme-colors-button_background_hover: unset;
+    --theme-colors-frame: unset;
+    --theme-colors-icons: unset;
+    --theme-colors-icons_attention: unset;
+    --theme-colors-ntp_background: unset;
+    --theme-colors-ntp_text: unset;
+    --theme-colors-popup: unset;
+    --theme-colors-popup_border: unset;
+    --theme-colors-popup_highlight: unset;
+    --theme-colors-popup_highlight_text: unset;
+    --theme-colors-popup_text: unset;
+    --theme-colors-sidebar: unset;
+    --theme-colors-sidebar_border: unset;
+    --theme-colors-sidebar_highlight: unset;
+    --theme-colors-sidebar_highlight_text: unset;
+    --theme-colors-sidebar_text: unset;
+    --theme-colors-tab_background_separator: unset;
+    --theme-colors-tab_background_text: unset;
+    --theme-colors-tab_line: unset;
+    --theme-colors-tab_loading: unset;
+    --theme-colors-tab_text: unset;
+    --theme-colors-toolbar: unset;
+    --theme-colors-toolbar_bottom_separator: unset;
+    --theme-colors-toolbar_field: unset;
+    --theme-colors-toolbar_field_border: unset;
+    --theme-colors-toolbar_field_border_focus: unset;
+    --theme-colors-toolbar_field_focus: unset;
+    --theme-colors-toolbar_field_highlight: unset;
+    --theme-colors-toolbar_field_text: unset;
+    --theme-colors-toolbar_field_text_focus: unset;
+    --theme-colors-toolbar_text: unset;
+    --theme-colors-toolbar_top_separator: unset;
+    --theme-colors-toolbar_vertical_separator: unset;
+    --theme-colors-focus_outline: unset;
+  }

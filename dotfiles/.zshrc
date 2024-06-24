@@ -1,6 +1,8 @@
 # Load rbenv automatically
 eval "$(rbenv init - zsh)"
 
+export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
+
 # Completions
 # Load more completions
 fpath=($DOTFILES/zsh/plugins/zsh-completions/src $fpath)
@@ -26,9 +28,10 @@ export GREP_OPTIONS='--color=auto'
 # Prompt
 parse_git_dirty() {
   git_status="$(git status 2> /dev/null)"
-  [[ "$git_status" =~ "Changes to be committed:" ]] && echo -n "%F{green}·%f"
-  [[ "$git_status" =~ "Changes not staged for commit:" ]] && echo -n "%F{yellow}·%f"
-  [[ "$git_status" =~ "Untracked files:" ]] && echo -n "%F{red}·%f"
+  [[ "$git_status" =~ "Changes to be committed:" ]] && echo -n "%F{yellow}⏺%f"
+  [[ "$git_status" =~ "Changes not staged for commit:" ]] && echo -n "%F{green}✚%f"
+  [[ "$git_status" =~ "Untracked files:" ]] && echo -n "%F{cyan}…%f"
+  [[ "$git_status" =~ "nothing to commit, working tree clean" ]] && echo -n "%F{green}✔︎%f"
 }
 
 setopt prompt_subst
