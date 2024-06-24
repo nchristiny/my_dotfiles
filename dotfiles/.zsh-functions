@@ -1,0 +1,13 @@
+function railsdbreset () {
+    bundle exec rails db:create db:migrate db:seed
+}
+
+function git() {
+    if [ $1 = "clone" ]
+    then
+        command git $@ && cd "$(basename "$_" .git)"
+    else
+        command git $@
+    fi
+
+}

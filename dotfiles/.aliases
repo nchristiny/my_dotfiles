@@ -19,10 +19,21 @@ alias du='du -ch'
 # Awake for 1 hr.
 alias caffeinate='caffeinate -idmst 3600 &'
 
+# Git
+alias gl='git log -n 1'
+alias ga='git add -A'
+alias gc='git commit'
+alias gs='git status --short'
+alias gp='git pull upstream main'
+
 # Rails
 alias be="bundle exec"
-alias dbreset="be rake db:create && be rake db:migrate && be rake db:seed"
+alias bd=bin/dev
+alias fore="foreman start -f Procfile.dev"
 alias rr="rails routes"
+alias assets="rails assets:precompile"
+
+# PIDs
 alias rbpid="ps aux | grep ruby | grep -v grep"
 alias railspid="ps aux | grep rails | grep -v grep"
 

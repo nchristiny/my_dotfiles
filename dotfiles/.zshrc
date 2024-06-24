@@ -1,7 +1,8 @@
+source ~/.zshenv
+source ~/.zsh-functions
+
 # Load rbenv automatically
 eval "$(rbenv init - zsh)"
-
-export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 
 # Completions
 # Load more completions
@@ -17,13 +18,6 @@ _comp_options+=(globdots) # With hidden files
 setopt MENU_COMPLETE        # Automatically highlight first element of completion menu
 setopt AUTO_LIST            # Automatically list choices on ambiguous completion.
 setopt COMPLETE_IN_WORD     # Complete from both ends of a word.
-
-# Colors ls should use for folders, files, symlinks etc, see `man ls` and
-# search for LSCOLORS
-export LSCOLORS=ExGxFxdxCxDxDxaccxaeex
-
-# Force grep to always use the color option and show line numbers
-export GREP_OPTIONS='--color=auto'
 
 # Prompt
 parse_git_dirty() {
