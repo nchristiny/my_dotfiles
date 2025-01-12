@@ -40,7 +40,6 @@ alias brewupgrade='brew -v upgrade --display-times && brew cleanup'
 alias src="cd ~/src/"
 alias reload="source ~/.zshrc"
 alias zshcfg="subl ~/.zshrc"
-alias code=codium
 
 # BlogOps
 alias blog="cd ~/src/nchristiny.github.io/"
