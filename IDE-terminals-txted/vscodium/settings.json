@@ -1,0 +1,29 @@
+{    
+    "files.associations": {
+        "*.vpy": "python",
+    },
+    "launch": {
+        "configurations": [
+            {
+                "args": [
+                    "${file}"
+                ],
+                "console": "integratedTerminal",
+                "name": "Vapoursynth: Preview",
+                "program": "~/src/c/run.py",
+                "request": "launch",
+                "type": "debugpy"
+            },
+        ],
+        "version": "0.2.0"
+    },
+    "rubyLsp.rubyVersionManager": {
+        "identifier": "rbenv"
+    },
+    "window.systemColorTheme": "dark",
+    "window.autoDetectHighContrast": false,
+    "update.showReleaseNotes": false,
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "Fira Mono for Powerline, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}

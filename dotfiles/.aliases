@@ -1,7 +1,6 @@
 # Aliases
 alias cd..="cd .."
 alias ..='cd ..'
-alias rm="trash -v"
 alias mkdir="mkdir -pv"
 alias mv="mv -iv"
 alias cp="cp -iv"
@@ -17,14 +16,13 @@ alias wget='wget -c'
 alias df='df -H'
 alias du='du -ch'
 # Awake for 1 hr.
-alias caffeinate='caffeinate -idmst 3600 &'
+alias cafe='caffeinate -idmst 3600 &'
 
 # Git
 alias gl='git log -n 1'
 alias ga='git add -A'
 alias gc='git commit'
 alias gs='git status --short'
-alias gp='git pull upstream main'
 
 # Rails
 alias be="bundle exec"
@@ -32,10 +30,7 @@ alias bd=bin/dev
 alias fore="foreman start -f Procfile.dev"
 alias rr="rails routes"
 alias assets="rails assets:precompile"
-
-# PIDs
-alias rbpid="ps aux | grep ruby | grep -v grep"
-alias railspid="ps aux | grep rails | grep -v grep"
+alias dbreset="bundle exec rails db:create db:migrate db:seed"
 
 # Homebrew
 alias brewupdate='brew -v update && brew outdated'

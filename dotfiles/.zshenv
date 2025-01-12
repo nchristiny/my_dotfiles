@@ -11,4 +11,10 @@ export GREP_OPTIONS='--color=auto'
 export EDITOR=$(which code)
 
 # Ruby (Needed for 3.x M1 Mac)
-# export RUBY_MAKE_OPTS=-j1
+export RUBY_MAKE_OPTS=-j1
+
+# Postgres
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@15/lib/pkgconfig"

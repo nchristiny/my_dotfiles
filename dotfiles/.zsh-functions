@@ -1,7 +1,3 @@
-function railsdbreset () {
-    bundle exec rails db:create db:migrate db:seed
-}
-
 function git() {
     if [ $1 = "clone" ]
     then
@@ -10,4 +6,8 @@ function git() {
         command git $@
     fi
 
+}
+
+function pid() {
+    command ps aux | grep $1 | grep -v grep
 }
