@@ -11,3 +11,7 @@ function git() {
 function pid() {
     command ps aux | grep $1 | grep -v grep
 }
+
+function rr() {
+    command rails routes | grep $1
+}
