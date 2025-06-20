@@ -9,6 +9,7 @@ alias la="ls -aF"
 alias ll="ls -alFh"
 alias PATH="echo $PATH | tr : '\n'"
 alias code="codium"
+alias subl="codium"
 
 # Resume wget by default in case of interruption
 alias wget='wget -c'
@@ -22,7 +23,7 @@ alias cafe='caffeinate -idmst 3600 &'
 # Git
 alias gl='git log -n 1'
 alias ga='git add -A'
-alias gc='git commit'
+alias gc='git commit -m'
 alias gs='git status --short'
 alias gf='git fetch --all --prune'
 alias gr='git rebase -i' # origin/main or HEAD~n latest commits
@@ -31,11 +32,12 @@ alias gr='git rebase -i' # origin/main or HEAD~n latest commits
 alias be="bundle exec"
 alias bd="bin/dev"
 alias fore="foreman start -f Procfile.dev"
-alias rs="rails s -p 3333"
+alias rs="rails s -p 3000"
 alias ra="rails assets:clobber && bin/dev"
 alias assets="rails assets:precompile"
-alias dbreset="bundle exec rails db:create db:migrate db:seed db:test:prepare"
+alias dbreset="bundle exec rails db:{create,migrate,seed,test:prepare}"
 alias mig="bundle exec rake db:migrate"
+alias rubo="rubocop"
 
 # Homebrew
 alias brewupdate='brew -v update && brew outdated'
@@ -43,8 +45,9 @@ alias brewupgrade='brew -v upgrade --display-times && brew cleanup'
 
 # Personal
 alias src="cd ~/src"
+alias dotfiles="cd ~/src/my_dotfiles"
 alias reload="source ~/.zshrc"
-alias zshcfg="codium -n ~/.aliases ~/.zshrc ~/.zshenv ~/.zsh-functions ~/.gitconfig ~/.rspec"
+alias zshcfg="codium -n ~/.aliases ~/.zshrc ~/.zshenv ~/.zsh-functions ~/.gitconfig ~/.gitignore_global ~/.rspec"
 
 # BlogOps
 alias blog="cd ~/src/nchristiny.github.io/"
